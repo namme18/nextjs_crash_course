@@ -8,7 +8,7 @@ const about = () => {
             <Head>
                 <title>About</title>
             </Head>
-            <Typography variant='h1' color='textSecondary'>About</Typography>
+            <Typography variant='h1' color='textSecondary'>About Me</Typography>
         </div>
     )
 }
