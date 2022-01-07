@@ -1,13 +1,11 @@
 import React from 'react'
-import { Typography } from '@mui/material'
-import Head from 'next/head'
+import { Typography } from '@mui/material';
+import Meta from '../Components/Meta';
 
 const about = () => {
     return (
         <div>
-            <Head>
-                <title>About</title>
-            </Head>
+            <Meta title='About' />
             <Typography variant='h1' color='textSecondary'>About</Typography>
         </div>
     )
